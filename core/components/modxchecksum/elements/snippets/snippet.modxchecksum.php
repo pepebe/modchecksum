@@ -1,3 +1,5 @@
+<?php
+
 /*
-  placeholder for snippet
+  placeholder
 */
