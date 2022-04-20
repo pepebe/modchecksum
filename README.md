@@ -14,7 +14,9 @@ MODx3 might be also covered if it makes sense.
 
 ## Background
 
-The script creates a sha256 hash of each modx files present in your system (standard installation). The script will compare this list against a whitelist and return a warning if one of the following things are true:
+The script creates a sha256 hash for each MODX file present in your system (standard installation). It will ignore a number of files and directories that are defined by an exclude list. 
+
+The script will compare the results against a whitelist and return a warning if one of the following things are true:
 
 * a file was changed 
 * a file is unknown
