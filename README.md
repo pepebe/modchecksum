@@ -4,6 +4,14 @@ The idea is to create a sha256 hash for every file created during setup.
 
 By comparing this list against a list created for your own modx installation, you can check the integrety of your MODx system.
 
+## Versioning
+
+2022-04-20 version 0.0.1 proof of concept
+
+The snippet it is based on will be published at a later time. It is NOT AVAILABLE at the moment. The main purpose of this repo is to store the hash databases for each modx version 2.7.0 and up. 
+
+MODx3 might be also covered if it makes sense.
+
 ## Background
 
 The script creates a sha256 hash of each modx files present in your system (standard installation). The script will compare this list against a whitelist and return a warning if one of the following things are true:
@@ -66,14 +74,6 @@ So far the following setups are covered:
 The complete list can be found here: https://github.com/pepebe/modchecksum/tree/main/checksums
 
 Additional setups for future version will be added from time to time. Older version if there is demand for this.
-
-## Versioning
-
-2022-04-20 version 0.0.1 proof of concept
-
-The snippet it is based on will be published at a later time. The main purpose of this repo is to store the hash databases for each modx version 2.7.0 and up. 
-
-MODx3 might be also covered if it makes sense.
 
 ## Contribution
 
