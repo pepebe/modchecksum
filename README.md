@@ -48,6 +48,8 @@ $exclude = array( // 2do...
 );
 ```
 
+Note: If you think there is a file or directory missing in this list, please open an issue.
+
 ## MODX Versions covered so far
 
 So far the following setups are covered:
