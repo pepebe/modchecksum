@@ -16,6 +16,14 @@ The screenshot below shows a test run:
 
 <img width="988" alt="image" src="https://user-images.githubusercontent.com/667315/164215990-48deab7a-3e4d-469b-8a49-0a65f2597ee3.png">
 
+In this example I have 
+
+* added a comment to index.php (corrupted)
+* added test.txt to connectors (unknown)
+* renamed changelog.txt to changelogs.txt (unknown and missing)
+
+(The modx.2.7.2-pl.json file in my root is only for testing)
+
 You can use the results to track down issues (corrupted or missing files, hacks, etc.).
 
 ## Ignore list
